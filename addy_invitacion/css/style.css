@@ -1,0 +1,219 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #c77d7d;
+}
+
+.info p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.carattere-regular {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.waterfall-regular {
+  font-family: "Waterfall", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-regular {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-medium {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.newsreader {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.merienda {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 99vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+/*   justify-content: center; */
+  align-items: center;
+  /* padding: 2rem; */
+  padding: 5rem 1rem;
+  text-align: center;
+  background: #011c0d;
+  /* background-image: url('../media/images/fondo4.gif'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; */
+  background: radial-gradient(circle, #111d19 0%, #011d1d 65%, #04131d 100%);
+  /* background: #ebffb0;
+  background: radial-gradient(circle, #f0ded1 0%, #fbebae 65%, #d6dd82 100%); */
+
+}
+
+.section img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.great-vibes-regular {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+
+.carattere-regular {
+  font-family: 'Carattere', cursive;
+  font-size: 2rem;
+}
+
+iframe, .image-addy {
+  width: 90%;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: #022e058c 1px 1px 8px;
+}
+
+.nav-buttons {
+  position: fixed;
+  right: 10px;
+  top: 80%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.nav-buttons button {
+  background-color: #1a222429;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #a88fa6;
+  box-shadow: 0 0 5px rgb(23, 38, 1);
+  background: -webkit-linear-gradient(#e2c4d5 0%, #edaeae 51%, #f01948 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+
+/**/
+
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.scale-in-center {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.bounce-in-fwd {
+	-webkit-animation: bounce-in-fwd 1.1s both;
+	        animation: bounce-in-fwd 1.1s both;
+}
+
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+.letra-dorada {
+  background: -webkit-linear-gradient(#F09819 0%, #ddb606 51%, #F09819 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: #f5b41b6e 1px 1px 1px;
+}
+
+.letra-dorada2 {
+  background: -webkit-linear-gradient(#a26003 0%, #f0b319 51%, #a26003 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: #8f80446e 1px 1px 1px;
+  font-size: 45px;
+}
+
+.inv-texto {
+  color: #f0b319;
+  font-size: 18px;
+}
+
+.think{
+  width: 150px !important;
+}
